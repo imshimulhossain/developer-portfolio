@@ -1,0 +1,46 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h2 span {
+  color: blueviolet;
+}
+
+section {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 100px;
+}
+
+.half-width img {
+  height: 500px;
+  margin: 0 auto;
+}
+
+.link-button {
+  text-decoration: none;
+  background: linear-gradient(#7d97cd, #a496dc);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.top-banner {
+  background-image: url(img/developer.png);
+  background-repeat: no-repeat;
+}
