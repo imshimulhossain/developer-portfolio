@@ -17,7 +17,7 @@ h2 span {
   color: blueviolet;
 }
 
-section {
+.flexible-container {
   display: flex;
 }
 
@@ -29,11 +29,10 @@ section {
 
 .half-width img {
   height: 500px;
-  margin: 0 auto;
 }
 
-.dream.half-width img {
-  width: 100%;
+.dream-big.half-width img {
+  width: 50%;
 }
 
 .link-button {
@@ -48,4 +47,46 @@ section {
 .top-banner {
   background-image: url(img/developer.png);
   background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.dream-big {
+  background-image: url(img/Purple_circle_full.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-area {
+  background-image: url(img/Purple_circle_full.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.box-shadow h2 {
+  font-size: 40px;
+}
+
+.box-shadow h3 {
+  color: #7d97cd;
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 40px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+#br-left-orange {
+  border-left: 10px solid orange;
+}
+
+#br-left-blue {
+  border-left: 10px solid #7d97cd;
+}
+
+footer p {
+  text-align: center;
 }
